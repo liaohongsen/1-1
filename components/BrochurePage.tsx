@@ -180,7 +180,7 @@ const BrochurePage: React.FC<BrochurePageProps> = ({ content, isClinical }) => {
                 <p className="text-[10px] text-[#e67e22] font-black uppercase tracking-wider mb-1.5">官方微信</p>
                 <div className="w-14 h-14 bg-white p-1 rounded-2xl shadow-inner border border-[#e67e22]/5">
                    <img 
-                     src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=WeChatReservation" 
+                     src="./images/wechat.jpg" 
                      alt="WeChat QR" 
                      className="w-full h-full object-contain"
                    />
